@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <atlas name="main" width="512" height="512" format="rgba_4444">
+    <image name="rocket" file="tiles\rocket.png"/>
+    <image name="rocket2" file="tiles\rocket2.png"/>
+    <image name="rocket3" file="tiles\rocket3.png"/>
+    <image name="rocket_handle" file="tiles\rocket_handle.png"/>
+    <image name="ball" file="tiles\ball.png"/>
+    <image name="ball_plasma" file="tiles\ball_plasma.png"/>
+    <image name="ball_fire" file="tiles\ball_fire.png"/>
+    <image name="ball_ghost" file="tiles\ball_ghost.png"/>
+    <image name="ball_sticky" file="tiles\ball_sticky.png"/>
+
+    <image name="mount1" file="tiles\mount1.png"/>
+    <image name="mount2" file="tiles\mount2.png"/>
+    <image name="mount3" file="tiles\mount3.png"/>
+    <image name="sky" file="tiles\sky.png"/>
+    <image name="sky2" file="tiles\sky2.png"/>
+    <image name="star" file="tiles\star.png"/>
+    <image name="star2" file="tiles\star2.png"/>
+    <image name="star3" file="tiles\star3.png"/>
+    <image name="survival_line" file="tiles\survival_line.png"/>
+
+    <dir path="tiles\blocks"/>
+    <dir path="tiles\bonuses"/>
+    <dir path="tiles\hud"/>
+    <dir path="tiles\menu"/>
+  </atlas>
+
+  <atlas name="lang_en" width="512" height="512" format="rgba_4444" lang="en">
+    <dir path="tiles\_lang_en"/>
+  </atlas>
+  <atlas name="lang_ru" width="512" height="512" format="rgba_4444" lang="ru">
+    <dir path="tiles\_lang_ru"/>
+  </atlas>
+
+  <font name="system" file="fonts\system.fnt"/>
+  <font name="common" file="fonts\common.fnt"/>
+  <font name="main" file="fonts\main.fnt"/>
+  <font name="text" file="fonts\text.fnt"/>
+  <font name="big_nums" file="fonts\big_nums.fnt"/>
+
+  <sound name="button_click" file="sounds\button_click.ogg"/>
+  <sound name="button_over" file="sounds\button_over.ogg"/>
+  <sound name="ball_knock" file="sounds\ball_knock_3.ogg"/>
+
+  <music name="main_menu" file="music\main_menu.ogg"/>
+  <music name="inlevel" file="music\inlevel.ogg"/>
+  <music name="credits" file="music\credits.ogg"/>
+</resources>
